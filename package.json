@@ -1,0 +1,24 @@
+{
+  "name": "twizco.github.io",
+  "version": "0.1.0",
+  "description": "Twiz.codes",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twizco/twizco.github.io.git"
+  },
+  "author": "José Carneiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twizco/twizco.github.io/issues"
+  },
+  "homepage": "https://github.com/twizco/twizco.github.io#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-pug": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
