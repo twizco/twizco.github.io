@@ -1,5 +1,26 @@
 html
   head
     title Twiz.codes
+    meta(
+      name="viewport",
+      content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no"
+    )
+    link(href="dist/public/css/style.css", rel="stylesheet")
   body
     h1 Work in progress
+    section
+      span Through the development of Twiz, we've open sourced several libraries.
+      h3 Our Libraries
+      ul
+        li
+          a(href="https://github.com/twizco/id")
+            span @twiz/id
+          p Easily generate a short id string.
+        li
+          a(href="https://github.com/twizco/geo")
+            span @twiz/geo
+          p Geographic Javascript utilities.
+        li
+          a(href="https://github.com/twizco/functional")
+            span @twiz/functional
+          p Interact with Google Cloud Functions.
